@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+
+    <section class="navbar">
+        <div class="logo">
+            <h1>T</h1>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="menu">
+            <a href="#introduction">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </section>
+
+    <!-- INTRODUCTION SECTION -->
+
+    <section class="introduction" id="introduction">
+        <div class="information">
+            <p>Hi I'm <h1>TANMAY CHACHAD</h1></p>
+            <h2>Full Stack Web Developer</h2>
+            <p id="short-description">I am passionate about solving complex problems, building innovative applications, and leveraging data to drive insights. I thrive in collaborative environments and constantly seek to expand my technical skill set.</p>
+        </div>
+        <div class="photo">
+            <img src="./images/myimage.png" alt="" srcset="">
+        </div>
+    </section>
+
+    <!-- Expertise SECTION -->
+
+    <section class="Expertise">
+        <h1 class="heading">MY EXPERTISE</h1>
+        <hr class="heading-underline">
+        <div class="my-expertise">
+            <div class="box">
+                <figure id="html">
+                    <img src="./images/html.png" alt="HTML">
+                    <figcaption>HTML</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="css">
+                    <img src="./images/CSS.png" alt="CSS">
+                    <figcaption>CSS</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="javascript">
+                    <img src="./images/js.png" alt="JavaScript">
+                    <figcaption>JavaScript</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="git">
+                    <img src="./images/git.png" alt="GIT">
+                    <figcaption>GIT</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="java">
+                    <img src="./images/Java.png" alt="java">
+                    <figcaption>Java</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="python">
+                    <img src="./images/python.png" alt="python">
+                    <figcaption>Python</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="mysql">
+                    <img src="./images/mysql.png" alt="mysql">
+                    <figcaption>MySQL</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="Cplus">
+                    <img src="./images/C++.png" alt="C++">
+                    <figcaption>C++</figcaption>
+                </figure>
+            </div>
+            <div class="box">
+                <figure id="react">
+                    <img src="./images/react.png" alt="React">
+                    <figcaption>React</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h1 class="heading">PROJECTS</h1>
+        <hr class="heading-underline">
+        <div class="my-projects">
+            <div class="card">
+                <img src="./images/Gate Entry.png" alt="Gate Entry Thumbnail" srcset="" id="project1">
+                <h2>Gate Pass Entry System</h2>
+                <p>The Gate Pass Entry System is an web application which is used to track day-to-day entries of the visitor's of Yashaswi Bhavan. The project was developed using technologies like HTML, CSS, JavaScript, Bootstrap, Java and MySQL.</p>
+            </div>
+
+            <div class="card">
+                <img src="./images/BookRecommender.png" alt="Book Recommender Thumbnail" srcset="" id="project2">
+                <h2>Book Recommender System</h2>
+                <p>The Book Recommender System is a Machine Learning Project which predicts the 5 books as per the user's choice of interest. The project was developed with help of technologies like HTML, CSS, JavaScript, Bootstrap, Python, Flask and some datasets.</p>
+            </div>
+
+            <div class="card">
+                <img src="./images/COPO.png" alt="COPO Thumbnail" srcset="" id="project3">
+                <h2>CO - PO Mapping</h2>
+                <p>The Course Outcome (COs) and Program Outcome (POs) can be mapped with the help of this project. Uploading a excel sheet in defined order and selecting appropriate parameters will give you desired output. Project was developed with help of HTML, CSS, JavaScript, Python, Django and MySQL.</p>
+            </div>
+
+            <div class="card">
+                <img src="./images/Doctor-Patient.png" alt="Doctor Patient Thumbnail" srcset="" id="project4">
+                <h2>Efficient Doctor Patient Portal</h2>
+                <p>The Efficient Doctor Patient Portal project is useful to tract the day-to-day activites of a hospital consisting four modules: Admin, Doctor, Receptionist and Patient. The project was developed by using technologies like HTML, CSS, JavaScript, Java, JSP, Servlet and MySQL.</p>
+            </div>
+
+            <div class="card">
+                <img src="./images/BlindStick.png" alt="BlindStick Thumbnail" srcset="" id="project5">
+                <h2>Smart Blind Walking Stick</h2>
+                <p>The Smart Blind Walking Stick is an Internet of Things(IOT) Project which was developed for visually imapired persons to navigate their way. It uses Ultrasonic sesnsor, Soil Moisture Sensor, LDR, Buzzer and GPS NEO 6M.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-me">
+            <h1 id="newHeading">Feel Free To Contact Me</h1>
+            <form action="#">
+                <input type="text" name="name" id="namne" placeholder="Your Name"><br>
+                <input type="text" name="phone" id="phone" placeholder="Your Phone Number"><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
